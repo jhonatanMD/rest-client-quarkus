@@ -1,0 +1,8 @@
+quarkus:
+  rest-client:
+    app-proxy:
+      url: http://www.geognos.com/api/en/countries/
+    app-local:
+      url: http://localhost:8081/
+  banner:
+    path: banner.txt
